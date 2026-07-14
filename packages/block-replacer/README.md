@@ -112,7 +112,7 @@ Process a file with comment block replacements using configured transforms.
 
 #### Returns
 
-Promise<ProcessFileResult> - Result object with processed content and metadata
+`Promise<ProcessFileResult>` - Result object with processed content and metadata
 
 ### ProcessFileOptions
 

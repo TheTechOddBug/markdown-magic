@@ -204,7 +204,7 @@ Transform markdown blocks based on configured transforms.
 
 #### Returns
 
-Promise<BlockTransformerResult> - Result object containing transformed content and metadata
+`Promise<BlockTransformerResult>` - Result object containing transformed content and metadata
 
 ### ProcessContentConfig
 
