@@ -195,18 +195,6 @@ importers:
         specifier: ^0.5.6
         version: 0.5.6
 
-  packages/plugin-dependency-table:
-    dependencies:
-      find-up:
-        specifier: ^2.1.0
-        version: 2.1.0
-      markdown-magic:
-        specifier: ^3.0.0
-        version: 3.7.0(encoding@0.1.13)
-      semver:
-        specifier: ^5.3.0
-        version: 5.7.2
-
   packages/plugin-github-contributors:
     dependencies:
       deepmerge:

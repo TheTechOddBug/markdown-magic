@@ -46,6 +46,7 @@ This `README.md` is generated with `markdown-magic` [view the raw file](https://
   - [> fileTree](#-filetree)
   - [> install](#-install)
 - [Inline transforms](#inline-transforms)
+- [Plugins](#plugins)
 - [Legacy v1 & v2 plugins](#legacy-v1--v2-plugins)
 - [Adding Custom Transforms](#adding-custom-transforms)
 - [Plugin Example](#plugin-example)
@@ -598,21 +599,27 @@ The face symbol 👉 <!-- MD-MAGIC-EXAMPLE:START (INLINE_EXAMPLE) -->**⊂◉‿
 <!-- docs (FILE:src=./path/to/file) -->xyz<!-- /docs -->
 ```
 
+## Plugins
+
+These plugins are maintained and compatible with the latest **markdown-magic v4+** plugin API.
+
+* [dependency-table](https://github.com/camacho/markdown-magic-dependency-table) - Add a table of dependencies with links to their repositories, version information, and a short description
+* [directory-tree](https://github.com/camacho/markdown-magic-directory-tree) - Add a directory tree to markdown files
+* [engines](https://github.com/camacho/markdown-magic-engines) - Print the `engines` list from `package.json`
+* [install-command](https://github.com/camacho/markdown-magic-install-command) - Add an install command to markdown files with `peerDependencies` included
+* [last-modified](https://github.com/camacho/markdown-magic-last-modified) - Print the last modified date (from git) for a given file
+* [package-scripts](https://github.com/camacho/markdown-magic-package-scripts) - Add a table of `package.json` scripts with descriptions
+* [prettier](https://github.com/camacho/markdown-magic-prettier) - Format code blocks with [`prettier`](https://github.com/prettier/prettier)
+* [subpackage-list](https://github.com/camacho/markdown-magic-subpackage-list) - Add a list of all subpackages (great for monorepos, e.g. [Lerna](https://github.com/lerna/lerna) or [pnpm](https://pnpm.io/))
+* [template](https://github.com/camacho/markdown-magic-template) - Add Lodash template support
+* [version-badge](https://github.com/camacho/markdown-magic-version-badge) - Add a badge with the latest version of the project
+
 ## Legacy v1 & v2 plugins
 
 These plugins work with older versions of markdown-magic. Adapting them to the newer plugin syntax should be pretty straight forward.
 
 * [wordcount](https://github.com/DavidWells/markdown-magic-wordcount/) - Add wordcount to markdown files
 * [github-contributors](https://github.com/DavidWells/markdown-magic-github-contributors) - List out the contributors of a given repository
-* [directory-tree](https://github.com/camacho/markdown-magic-directory-tree) - Add directory tree to markdown files
-* [install-command](https://github.com/camacho/markdown-magic-install-command) - Add install command to markdown files with `peerDependencies` included
-* [subpackage-list](https://github.com/camacho/markdown-magic-subpackage-list) - Add list of all subpackages (great for projects that use [Lerna](https://github.com/lerna/lerna))
-* [version-badge](https://github.com/camacho/markdown-magic-version-badge) - Add a badge with the latest version of the project
-* [template](https://github.com/camacho/markdown-magic-template) - Add Lodash template support
-* [dependency-table](https://github.com/camacho/markdown-magic-dependency-table) - Add a table of dependencies with links to their repositories, version information, and a short description
-* [package-scripts](https://github.com/camacho/markdown-magic-package-scripts) - Add a table of `package.json` scripts with descriptions
-* [prettier](https://github.com/camacho/markdown-magic-prettier) - Format code blocks with [`prettier`](https://github.com/prettier/prettier)
-* [engines](https://github.com/camacho/markdown-magic-engines) - Print engines list from `package.json`
 * [jsdoc](https://github.com/bradtaylorsf/markdown-magic-jsdoc) - Adds jsdoc comment support
 * [build-badge](https://github.com/rishichawda/markdown-magic-build-badge) - Update branch badges to auto-magically point to current branches.
 * [package-json](https://github.com/forresst/markdown-magic-package-json) - Add the package.json properties to markdown files
